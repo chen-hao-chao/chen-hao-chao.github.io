@@ -193,9 +193,8 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-
     p {
-      display: inline-block;
+      text-align: justify;
       margin: 0;
     }
   }
@@ -211,7 +210,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 19.5%;
 
     .address {
       p {
@@ -377,7 +376,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
