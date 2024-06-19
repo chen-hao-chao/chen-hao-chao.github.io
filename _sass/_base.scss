@@ -686,6 +686,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        color: var(--global-bg-color);
       }
 
       .abbr {
@@ -693,12 +694,11 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: var(--global-theme-color)!important;
           margin-bottom: 0.5rem;
 
           a {
-            color: white;
-
+            color: var(--global-bg-color) !important;
             &:hover {
               text-decoration: none;
             }
@@ -766,7 +766,7 @@ footer.sticky-bottom {
         padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          color: $black-color;
+          color: var(--global-bg-color);
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
