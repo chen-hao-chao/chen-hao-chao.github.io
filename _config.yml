@@ -14,7 +14,7 @@ footer_text: >
   Some icons are provided by <a href="https://www.flaticon.com/">Flaticon</a>.
 keywords: Chen-Hao Chao, machine learning, generative models  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: graduation-hat.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ch.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://chen-hao-chao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -191,6 +191,13 @@ external_sources:
     posts:
       - url: https://chen-hao-chao.github.io/dlsm/
         published_date: 2022-05-27
+  - name: Project Page
+    description: 'End-to-end ensemble learning methods often lack flexibility as any modification to the ensemble requires retraining of their frameworks. 
+    To address this problem, we propose a flexible ensemble-distillation framework for performing semantic segmentation based UDA, allowing any arbitrary composition of the members in the ensemble while still maintaining its superior performance. 
+    To achieve such flexibility, our framework is designed to be robust against the output inconsistency and the performance variation of the members within the ensemble.'
+    posts:
+      - url: https://chen-hao-chao.github.io/Rethinking-EnD-SegUDA/
+        published_date: 2021-04-29
 
     
 # -----------------------------------------------------------------------------
