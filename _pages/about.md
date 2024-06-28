@@ -6,7 +6,7 @@ subtitle: Ph.D. in CS @ University of Toronto
 
 profile:
   align: right
-  image: chc.jpeg
+  image: chc.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
