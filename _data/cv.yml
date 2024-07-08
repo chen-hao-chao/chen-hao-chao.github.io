@@ -21,6 +21,8 @@
     - title: Research Intern
       institution: NVIDIA AI Technology Center, NVIDIA Corporation
       year: Oct. 2023 - Jul. 2024
+      description:
+        - Mentored by Dr. <a href="https://scholar.google.com/citations?user=WWvSfXkAAAAJ&hl=zh-TW">Cheng-Kuang Lee</a> and Dr. <a href="https://scholar.google.com/citations?user=ebIHTEoAAAAJ&hl=en">Simon See</a>.
 
     - title: Visiting Scholar
       institution: Robotics Perception and Learning (RIPL) Lab, Georgia Institute of Technology
@@ -30,12 +32,13 @@
     - title: Research Intern
       institution: Division of Multimedia Development, MediaTek Inc.
       year: Mar. 2021 - Mar. 2022
+      description:
+        - Mentored by <a href="https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=zh-CN">Yi-Chen Lo</a>, <a href="https://scholar.google.com.tw/citations?user=FK1RcpoAAAAJ&hl=zh-TW">Chia-Che Chang</a>, Prof. <a href="https://yulunalexliu.github.io/">Yu-Lun Liu</a>, and Dr. <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a>.
 
 - title: Professional Services
   type: list
   contents:  
     - <strong>Conference Paper Reviewer:</strong> NeurIPS (2023, 2024), ICML (2024), ICLR (2024).  
     - <strong>Workshop Paper Reviewer:</strong> L3D-IVU @ CVPR Workshop 2022.
-    - <strong>Teaching Assistant:</strong> Logic Design Laboratory, National Tsing Hua University, Fall 2020.
-    - <strong>Teaching Assistant:</strong> Digital Logic Design, National Tsing Hua University, Spring 2019.
+    - <strong>Teaching Assistant:</strong> Logic Design Laboratory (Fall 2020), Digital Logic Design (Spring 2019), National Tsing Hua University.
     
