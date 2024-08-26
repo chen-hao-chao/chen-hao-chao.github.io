@@ -38,7 +38,11 @@
 - title: Professional Services
   type: list
   contents:  
-    - <strong>Conference Paper Reviewer:</strong> NeurIPS (2023, 2024), ICML (2024), ICLR (2024).  
-    - <strong>Workshop Paper Reviewer:</strong> L3D-IVU @ CVPR Workshop 2022.
-    - <strong>Teaching Assistant:</strong> Logic Design Laboratory (Fall 2020), Digital Logic Design (Spring 2019), National Tsing Hua University.
-    
+    - <strong>Conference Paper Reviewer:</strong> NeurIPS (2023, 2024), ICML (2024), ICLR (2024, 2025).
+    - <strong>Conference Program Commitee:</strong> AAAI (2025).  
+    - <strong>Workshop Paper Reviewer:</strong> L3D-IVU Workshop @ CVPR (2022).
+    - <strong>Teaching Assistant:</strong><ul>
+        <li>Introduction to Machine Learning, University of Toronto (Fall 2024).</li>
+        <li>Logic Design Laboratory, National Tsing Hua University (Fall 2020).</li>
+        <li>Digital Logic Design, National Tsing Hua University (Spring 2019).</li>
+      </ul>
