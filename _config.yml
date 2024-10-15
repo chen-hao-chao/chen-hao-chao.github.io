@@ -180,7 +180,7 @@ external_sources:
     Finally, we present experimental results to demonstrate the effectiveness of our method.'
     posts:
       - url: https://chen-hao-chao.github.io/qcsbm/
-        published_date: 2022-09-26
+        published_date: 2022-09-26 
   - name: Project Page
     description: 'This blog post provides an introduction to our proposed DLSM training method. 
     First, we start with an introduction of the denoising score-matching (DSM) method. 
