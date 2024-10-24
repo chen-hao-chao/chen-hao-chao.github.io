@@ -167,6 +167,13 @@ disqus_shortname: chchao # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: Project Page
+    description: 'This blog post offers an introduction to our proposed MEow algorithm. 
+    We begin with an review of MaxEnt RL and EBFlow. Then, we explore the connections between these models by introducing MEow. 
+    Finally, we present experimental results to demonstrate the effectiveness of the proposed method.'
+    posts:
+      - url: https://chienfeng-hub.github.io/meow/
+        published_date: 2024-10-23
+  - name: Project Page
     description: 'This blog post offers an introduction to our proposed EBFlow modeling method. 
     First, we begin with an overview of flow-based and energy-based models. Then, we explore the connections between these models by introducing EBFlow. 
     Next, we present experimental results to demonstrate the effectiveness of the proposed method. Finally, we discuss several implications of the EBFlow formula.'
