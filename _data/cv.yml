@@ -2,50 +2,53 @@
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
-      institution: University of Toronto, Ontario, Canada
+      institution: University of Toronto, Canada
       year: Sep. 2024 - Present
       description:
-        - Advised by Prof. <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>.
+        - Advised by <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>.
+        - Thesis Committee<a>:</a> <a href="https://www.cs.toronto.edu/~duvenaud/">David Duvenaud</a> and <a href="https://www.cs.toronto.edu/~cmaddis/">Chris J. Maddison</a>.
     - title: Master of Computer Science
-      institution: National Tsing Hua University, Hsinchu, Taiwan
+      institution: National Tsing Hua University, Taiwan
       year: Sep. 2021 - Jun. 2023
       description:
-        - Advised by Prof. <a href="https://elsalab.ai/about">Chun-Yi Lee</a>.
+        - Advised by <a href="https://elsalab.ai/about">Chun-Yi Lee</a>.
     - title: Bachelor of Computer Science
-      institution: National Tsing Hua University, Hsinchu, Taiwan
+      institution: National Tsing Hua University, Taiwan
       year: Sep. 2017 - Jun. 2021
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Intern
-      institution: NVIDIA AI Technology Center, NVIDIA Corporation
+      institution: NVIDIA
       year: Oct. 2023 - Jul. 2024
       description:
-        - Mentored by Dr. <a href="https://scholar.google.com/citations?user=WWvSfXkAAAAJ&hl=en">Cheng-Kuang Lee</a> and Dr. <a href="https://scholar.google.com/citations?user=ebIHTEoAAAAJ&hl=en">Simon See</a>.
+        - Collaborated with <a href="https://scholar.google.com/citations?user=ebIHTEoAAAAJ&hl=en">Simon See</a> on online RL for continuous control, leveraging NVIDIA Isaac simulation environment for high-fidelity real-world robotics modeling. 
 
     - title: Visiting Scholar
-      institution: Robotics Perception and Learning (RIPL) Lab, Georgia Institute of Technology
+      institution: Georgia Institute of Technology
       year: Sep. 2022 - Nov. 2022
       description:
-        - Advised by Prof. <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a>.
+        - Collaborated with <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a> on high-efficiency training paradigm for flow-based image generative models, achieving a dimensionality-proportional reduction in time complexity
+
     - title: Research Intern
-      institution: Division of Multimedia Development, MediaTek Inc.
+      institution: MediaTek
       year: Mar. 2021 - Mar. 2022
       description:
-        - Mentored by <a href="https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=en">Yi-Chen Lo</a>, <a href="https://scholar.google.com.tw/citations?user=FK1RcpoAAAAJ&hl=en">Chia-Che Chang</a>, Prof. <a href="https://yulunalexliu.github.io/">Yu-Lun Liu</a>, and Dr. <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a>.
+        - Collaborated with <a href="https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=en">Yi-Chen Lo</a> and <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a> on advanced guidance mechanisms for diffusion models to improve image synthesis fidelity and conditional control.
 
 - title: Professional Services
   type: list
   contents:  
-    - <strong>Conference Paper Reviewer:</strong> NeurIPS (2023, 2024, 2025), ICML (2024, 2025), ICLR (2024, 2025).
+    - <strong>Conference Paper Reviewer:</strong> NeurIPS (2023, 2024, 2025), ICML (2024, 2025, 2026), ICLR (2024, 2025, 2026).
     - <strong>Conference Program Commitee:</strong> AAAI (2025).  
     - <strong>Workshop Paper Reviewer:</strong> L3D-IVU Workshop @ CVPR (2022).
     - <strong>Teaching Assistant:</strong><ul>
         <li>Probabilistic Machine Learning, University of Toronto (Winter 2025)</li>
-        <li>Introduction to Machine Learning, University of Toronto (Fall 2024; Fall 2025)</li>
+        <li>Introduction to Machine Learning, University of Toronto (Fall 2024; Fall 2025; Winter 2026)</li>
         <li>Logic Design Laboratory, National Tsing Hua University (Fall 2020)</li>
         <li>Digital Logic Design, National Tsing Hua University (Spring 2019)</li>
       </ul>
     - <strong>Talk:</strong><ul> 
+        <li> Compute-Optimal Scaling of Diffusion Langugae Models, Vector Institiute (2026)</li>
         <li> Compositional Yeast Cell Video Generation using Diffusion Models, University of Toronto (2024)</li>

@@ -15,6 +15,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, I'm a Computer Science Ph.D. student at the [University of Toronto (UofT)](https://www.utoronto.ca/), advised by Prof. [Rahul G. Krishnan](https://www.cs.toronto.edu/~rahulgk/). Prior to this, I completed my master's and bachelor's degrees in Computer Science at [National Tsing Hua University (NTHU)](https://nthu-en.site.nthu.edu.tw/). During the time at NTHU, I collaborated on several amazing research projects with Prof. [Chun-Yi Lee](https://elsalab.ai/about), visited Prof. [Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/)'s lab at [Georgia Tech](https://www.gatech.edu/), and interned at [NVIDIA](https://www.nvidia.com/en-us/) and [MediaTek](https://www.mediatek.com/).
+<div style="text-align: justify; text-align-last: justify">
 
-My research focuses on probabilistic modeling in generative AI, particularly with high-dimensional data. I develop scalable training techniques that improve the sample quality, efficiency, and cross-domain applicability of generative models. My work spans fundamental research on both discrete (e.g., masked diffusion models) and continuous (e.g., score-based and flow-based models) generative methods, applied to visual domain adaptation, maximum entropy reinforcement learning, and biological data visualization.
+Hello, I'm a Computer Science Ph.D. student at the <a href="https://www.utoronto.ca/">University of Toronto (UofT)</a>, advised by Prof. <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>. Prior to this, I completed my master's and bachelor's degrees in Computer Science at <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University (NTHU)</a>. I collaborated on research projects with Prof. <a href="https://elsalab.ai/about">Chun-Yi Lee</a>, visited Prof. <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a>'s lab at <a href="https://www.gatech.edu/">Georgia Tech</a>, and interned at <a href="https://www.nvidia.com/en-us/">NVIDIA</a> and <a href="https://www.mediatek.com/">MediaTek</a>.
+
+<br><br>
+
+My current research explores efficient pre-training methods and scaling behavior of diffusion language models, developing approaches that improve training and sampling efficiency. More broadly, my work focuses on probabilistic modeling in generative AI, spanning both discrete and continuous generative methods (e.g., score-based and flow-based models) with applications to reinforcement learning, visual domain adaptation, and biological data visualization.
+
+</div>

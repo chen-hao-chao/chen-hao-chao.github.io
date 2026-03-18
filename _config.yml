@@ -167,6 +167,13 @@ disqus_shortname: chchao # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: Project Page
+    description: 'This blog post offers an introduction to MDM-Prime-v2, an improved version of MDM-Prime that enables compute-optimal scaling of diffusion language models. 
+    We show that MDM-Prime's sbutokenizer is sub-optimal for likelihood estimation. By incorporating two simple techniques, binary encoding and index shuffling, 
+    MDM-Prime-v2 achieves 21.8x more efficient training than autoregressive models in the compute-optimal regime.'
+    posts:
+      - url: https://chen-hao-chao.github.io/mdm-prime-v2/
+        published_date: 2026-03-18
+  - name: Project Page
     description: 'This blog post offers an introduction to MDM-Prime, a generalized masked diffusion model (MDM) that enables partially unmasked tokens during sampling. 
     We begin with an review of MDMs and their limitations. Then, we explore a <u>P</u>a<u>r</u>t<u>i</u>al <u>m</u>asking schem<u>e</u> (Prime) that introduces intermediate token states between masked and unmasked representations. 
     Finally, we present experimental results to demonstrate the effectiveness of MDM-Prime.'
