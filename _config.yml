@@ -167,11 +167,12 @@ disqus_shortname: chchao # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: Project Page
-    description: 'This blog post offers an introduction to MDM-Prime-v2, an improved version of MDM-Prime that enables compute-optimal scaling of diffusion language models. We show that the sbutokenizer of MDM-Prime is sub-optimal for likelihood estimation. By incorporating two simple techniques, binary encoding and index shuffling, 
-    MDM-Prime-v2 achieves 21.8x more efficient training than autoregressive models in the compute-optimal regime.'
+    description: 'The MDM loss function is only a valid variational bound (i.e., an upper bound on negative log-likelihood) when the model factorizes token predictions independently. 
+    When dependencies between tokens are introduced into the parameterization — either through energy-based corrections (EDLM) or sub-token joint modeling (MDM-Prime) — the loss can 
+    fall below the data entropy, meaning it is no longer a valid bound and cannot be compared to perplexity or log-likelihood.'
     posts:
-      - url: https://chen-hao-chao.github.io/mdm-prime-v2/
-        published_date: 2026-03-18
+      - url: https://chen-hao-chao.github.io/dependency-breaks-validity/
+        published_date: 2026-04-26
   - name: Project Page
     description: 'This blog post offers an introduction to MDM-Prime, a generalized masked diffusion model (MDM) that enables partially unmasked tokens during sampling. 
     We begin with an review of MDMs and their limitations. Then, we explore a <u>P</u>a<u>r</u>t<u>i</u>al <u>m</u>asking schem<u>e</u> (Prime) that introduces intermediate token states between masked and unmasked representations. 
