@@ -172,7 +172,7 @@ external_sources:
     fall below the data entropy, meaning it is no longer a valid bound and cannot be compared to perplexity or log-likelihood.'
     posts:
       - url: https://chen-hao-chao.github.io/dependency-breaks-validity/
-        published_date: 2026-04-26
+        published_date: 2026-05-01
   - name: Project Page
     description: 'This blog post offers an introduction to MDM-Prime, a generalized masked diffusion model (MDM) that enables partially unmasked tokens during sampling. 
     We begin with an review of MDMs and their limitations. Then, we explore a <u>P</u>a<u>r</u>t<u>i</u>al <u>m</u>asking schem<u>e</u> (Prime) that introduces intermediate token states between masked and unmasked representations. 
