@@ -21,6 +21,6 @@ Hello, I'm a Computer Science Ph.D. student at the <a href="https://www.utoronto
 
 <br><br>
 
-My current research explores efficient pre-training methods and scaling behavior of diffusion language models, developing approaches that improve training and sampling efficiency. More broadly, my work covers probabilistic modeling in generative AI, spanning both discrete and continuous generative methods (e.g., score-based and flow-based models) with applications to reinforcement learning, visual domain adaptation, and biological data visualization.
+My current research explores efficient pre-training methods and scaling behavior of diffusion language models, developing approaches that improve training and sampling efficiency. More broadly, my works cover probabilistic modeling and generative AI, spanning both discrete and continuous generative methods (e.g., score-based and flow-based models) with applications to reinforcement learning, visual domain adaptation, and biological data visualization.
 
 </div>
