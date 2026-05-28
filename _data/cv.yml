@@ -57,7 +57,7 @@
   type: list
   contents: 
     - <strong>Mary H. Beatty Fellowship</strong> (2026) <a href="https://www.utm.utoronto.ca/cps/graduate/chemistry/financial-support/scholarshipsfellowshipsawards/mary-h-beatty-top-scholarship"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a><ul>
-        <li>Awarded by the <a href="https://www.sgs.utoronto.ca/">School of Graduate Studies (UofT)</a> in recognition of research and academic excellence.</li>
+        <li>Awarded by the <a href="https://www.sgs.utoronto.ca/">School of Graduate Studies (UofT)</a> in recognition of research excellence.</li>
         <li><strong>Value:</strong> $10,000 CAD ($5,000 CAD for two consecutive sessions).</li>
       </ul> 
     - <strong>ICML 2026 Silver Reviewer Award</strong> (2026)<ul>
@@ -72,4 +72,9 @@
       </ul>
     - <strong>Google Conference Scholarship</strong> (2023)<ul>
         <li>Awarded to the first author of a top computer science conference paper.</li>
+        <li><strong>Value:</strong> $1,500 USD.</li>
+      </ul>
+    - <strong>Garmin Scholarship</strong> (2021)<ul>
+        <li>Awarded by <a href="https://www.garmin.com/en-US/">Garmin Ltd.</a> to outstanding graduate students for academic excellence.</li>
+        <li><strong>Value:</strong> $3,300 USD.</li>
       </ul>
