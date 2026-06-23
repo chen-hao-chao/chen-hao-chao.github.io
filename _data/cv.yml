@@ -7,13 +7,13 @@
       description:
         - Advised by <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>.
         - Thesis Committee<a>:</a> <a href="https://www.cs.toronto.edu/~duvenaud/">David Duvenaud</a> and <a href="https://www.cs.toronto.edu/~cmaddis/">Chris J. Maddison</a>.
-        - Thesis Topics<a>:</a> Diffusion Language Models, LLM Pretraining, Scaling Laws.
+        - Research Area<a>:</a> Diffusion Language Models, LLM Pretraining, Scaling Laws.
     - title: Master of Computer Science
       institution: National Tsing Hua University, Taiwan
       year: Sep. 2021 - Jun. 2023
       description:
         - Advised by <a href="https://elsalab.ai/about">Chun-Yi Lee</a>.
-        - Thesis Topics<a>:</a> Diffusion Models, Flow-based Models, Reinforcement Learning.
+        - Research Area<a>:</a> Diffusion Models, Image Generation, Reinforcement Learning.
     - title: Bachelor of Computer Science
       institution: National Tsing Hua University, Taiwan
       year: Sep. 2017 - Jun. 2021
@@ -42,8 +42,11 @@
 - title: Professional Services
   type: list
   contents:  
-    - <strong>Conference Paper Reviewer:</strong> NeurIPS (2023-2026), ICML (2024-2026), ICLR (2024-2026), AAAI (2025).
-    - <strong>Workshop Paper Reviewer:</strong> L3D-IVU Workshop @ CVPR (2022).
+    - <strong>Reviewer:</strong></strong><ul>
+        <li>Journal<a>:</a> TMLR (2026)</li>
+        <li>Conference<a>:</a> NeurIPS (2023-2026), ICML (2024-2026), ICLR (2024-2026), AAAI (2025)</li>
+        <li>Workshop<a>:</a> L3D-IVU Workshop @ CVPR (2022)</li>    
+      </ul>
     - <strong>Teaching Assistant:</strong><ul>
         <li>Probabilistic Machine Learning, University of Toronto (Winter 2025) <a href="https://diophontine.github.io/csc412/"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a></li>
         <li>Introduction to Machine Learning, University of Toronto (Fall 2024; Fall 2025; Winter 2026)</li>
