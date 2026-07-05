@@ -195,9 +195,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
@@ -216,7 +216,14 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% if entry.code contains 'github.com' %}
+          {% assign repo_path = entry.code | remove: 'https://github.com/' %}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0 github-stars" role="button" data-repo="{{ repo_path }}">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        {% else %}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% endif %}
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}

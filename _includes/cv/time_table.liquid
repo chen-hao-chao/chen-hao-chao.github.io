@@ -3,7 +3,7 @@
     <li class="list-group-item">
       <div class="row">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: {% if content.img %}120px{% else %}75px{% endif %}">
             <table class="table-cv">
               <tbody>
                 <tr>
@@ -20,6 +20,18 @@
                         <i class="fa-solid fa-location-dot iconlocation"></i>
                         {{ content.location }}
                       </p>
+                    </td>
+                  </tr>
+                {% endif %}
+                {% if content.img %}
+                  <tr>
+                    <td>
+                      <div class="cv-preview-wrapper rounded" {% if content.wrapper_style %}style="{{ content.wrapper_style }}"{% endif %}>
+                        <img src="{{ content.img | prepend: '/assets/img/cv/' | relative_url }}"
+                             class="cv-preview"
+                             {% if content.img_style %}style="{{ content.img_style }}"{% endif %}
+                             alt="{{ content.title }}">
+                      </div>
                     </td>
                   </tr>
                 {% endif %}
