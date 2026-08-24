@@ -21,7 +21,7 @@ Hello, I'm a Computer Science Ph.D. student at the <a href="https://www.utoronto
 
 <br><br>
 
-My current research explores efficient pre-training methods and scaling behavior of diffusion language models, developing approaches that improve training and sampling efficiency. More broadly, my works cover probabilistic modeling and generative AI, spanning both discrete and continuous generative methods (e.g., score-based and flow-based models) with applications to reinforcement learning, visual domain adaptation, and biological data visualization. I built:
+My current research explores efficient pre-training methods and scaling behavior of diffusion language models. More broadly, my works cover probabilistic modeling and generative AI, spanning both discrete and continuous generative methods (e.g., score-based and flow-based models) with applications to reinforcement learning, visual domain adaptation, and biological data visualization. I built:
 <br>
 <ul style="padding-left:1em; margin-left:0; padding-top:0.4em; margin-top:0; padding-bottom:1.6em; margin-bottom:0;">
 <li><a href="https://arxiv.org/abs/2603.16077">MDM-Prime</a> (<a href="https://arxiv.org/abs/2505.18495">v1</a>, <a href="https://arxiv.org/abs/2603.16077">v2</a>): A scalable diffusion language model that allows partial word editings.</li>
