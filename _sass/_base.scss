@@ -38,6 +38,16 @@ table {
   }
 }
 
+.news table {
+  th {
+    padding-right: 0;
+  }
+
+  td {
+    padding-left: 0.3rem;
+  }
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);

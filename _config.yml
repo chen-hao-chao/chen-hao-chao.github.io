@@ -167,6 +167,13 @@ disqus_shortname: chchao # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: Project Page
+    description: 'This blog post offers an introduction to MDM-Prime-v2, which scales the MDM-Prime framework to 1.1B-parameter models trained on 540B tokens.
+    We introduce two zero-FLOP, lookup-table-based techniques, index shuffling and binary encoding, that resolve how sub-tokens should be formed and sized.
+    This approach reaches 49.42% average accuracy on eight commonsense reasoning benchmarks, beating the MDM baseline (SMDM) by 4.87 points.'
+    posts:
+      - url: https://chen-hao-chao.github.io/mdm-prime-v2/
+        published_date: 2026-10-06
+  - name: Project Page
     description: 'The MDM loss function is only a valid variational bound (i.e., an upper bound on negative log-likelihood) when the model factorizes token predictions independently. 
     When dependencies between tokens are introduced into the parameterization — either through energy-based corrections (EDLM) or sub-token joint modeling (MDM-Prime) — the loss can 
     fall below the data entropy, meaning it is no longer a valid bound and cannot be compared to perplexity or log-likelihood.'
