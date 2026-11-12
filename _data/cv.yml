@@ -54,32 +54,15 @@
       description:
         - Collaborated with <a href="https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=en">Yi-Chen Lo</a> and <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a> on advanced guidance mechanisms for diffusion models to improve image synthesis fidelity and conditional control.
 
-- title: Professional Services
-  type: list
-  contents:
-    - <strong>Area Chair:</strong></strong><ul>
-        <li>Conference<a>:</a> ICLR (2027)</li>
-      </ul>
-    - <strong>Reviewer:</strong></strong><ul>
-        <li>Conference<a>:</a> NeurIPS (2023-2026), ICML (2024-2026), ICLR (2024-2026), AAAI (2025)</li>
-        <li>Journal<a>:</a> TMLR (2026)</li>
-        <li>Workshop<a>:</a> L3D-IVU Workshop @ CVPR (2022)</li>    
-      </ul>
-    - <strong>Teaching Assistant:</strong><ul>
-        <li>Probabilistic Machine Learning, University of Toronto (Winter 2025; Fall 2026) <a href="https://diophontine.github.io/csc412/"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a></li>
-        <li>Introduction to Machine Learning, University of Toronto (Fall 2024; Fall 2025; Winter 2026)</li>
-        <li>Logic Design Laboratory, National Tsing Hua University (Fall 2020)</li>
-        <li>Digital Logic Design, National Tsing Hua University (Spring 2019)</li>
-      </ul>
-    - <strong>Talk:</strong><ul>
-        <li> Compute-Optimal Scaling of Diffusion Language Models, Vector Institiute (2026)  <a href="https://ml-lunch-vector.github.io/"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a></li>
-        <li> Compositional Yeast Cell Video Generation using Diffusion Models, University of Toronto (2024)</li>
-
 - title: Awards & Scholarships
   type: list
   contents: 
-    - <strong>Mary H. Beatty Fellowship</strong> (2026) <a href="https://www.utm.utoronto.ca/cps/graduate/chemistry/financial-support/scholarshipsfellowshipsawards/mary-h-beatty-top-scholarship"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a><ul>
-        <li>Awarded by the <a href="https://www.sgs.utoronto.ca/">UofT School of Graduate Studies</a> in recognition of research excellence.</li>
+    - ⭐ <strong>Google PhD Fellowship</strong> (2026) <a href="https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a><ul>
+        <li>Awarded by <a href="https://research.google/programs-and-events/phd-fellowship/recipients/">Google</a> in recognition of research excellence in Machine Learning and ML Foundations.</li>
+        <li><strong>Research Proposal</strong><a>:</a> Compute-Optimal Scaling of Diffusion Language Models</li>
+      </ul>
+    - ⭐ <strong>Mary H. Beatty Fellowship</strong> (2026) <a href="https://www.utm.utoronto.ca/cps/graduate/chemistry/financial-support/scholarshipsfellowshipsawards/mary-h-beatty-top-scholarship"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a><ul>
+        <li>Awarded by the <a href="https://www.sgs.utoronto.ca/">UofT School of Graduate Studies</a> in recognition of academic excellence.</li>
       </ul> 
     - <strong>ICML 2026 Silver Reviewer Award</strong> (2026)<ul>
         <li>Recognition as a top reviewer at <a href="https://icml.cc/Conferences/2026">ICML 2026</a>.</li>
@@ -96,3 +79,24 @@
     - <strong>Garmin Scholarship</strong> (2021)<ul>
         <li>Awarded by <a href="https://www.garmin.com/en-US/">Garmin Ltd.</a> to outstanding graduate students for academic excellence.</li>
       </ul>
+
+- title: Professional Services
+  type: list
+  contents:
+    - <strong>Area Chair:</strong></strong><ul>
+        <li>Conference<a>:</a> ICLR (2027)</li>
+      </ul>
+    - <strong>Reviewer:</strong></strong><ul>
+        <li>Conference<a>:</a> ICLR (2024-2027), NeurIPS (2023-2026), ICML (2024-2026), AAAI (2025)</li>
+        <li>Journal<a>:</a> TMLR (2026)</li>
+        <li>Workshop<a>:</a> L3D-IVU Workshop @ CVPR (2022)</li>    
+      </ul>
+    - <strong>Teaching Assistant:</strong><ul>
+        <li>Probabilistic Machine Learning, University of Toronto (Winter 2025; Fall 2026) <a href="https://diophontine.github.io/csc412/"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a></li>
+        <li>Introduction to Machine Learning, University of Toronto (Fall 2024; Fall 2025; Winter 2026)</li>
+        <li>Logic Design Laboratory, National Tsing Hua University (Fall 2020)</li>
+        <li>Digital Logic Design, National Tsing Hua University (Spring 2019)</li>
+      </ul>
+    - <strong>Talk:</strong><ul>
+        <li> Compute-Optimal Scaling of Diffusion Language Models, Vector Institiute (2026)  <a href="https://ml-lunch-vector.github.io/"><i style="font-size:12px color:gray;" class="fa">&#xf08e;</i></a></li>
+        <li> Compositional Yeast Cell Video Generation using Diffusion Models, University of Toronto (2024)</li>
