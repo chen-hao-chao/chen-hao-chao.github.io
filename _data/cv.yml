@@ -36,7 +36,7 @@
       wrapper_style: "padding: 13px 13px 13px 20px"
       year: Oct. 2023 - Jul. 2024
       description:
-        - Collaborated with <a href="https://scholar.google.com/citations?user=ebIHTEoAAAAJ&hl=en">Simon See</a> on online RL for continuous control, leveraging NVIDIA Isaac simulation environment for real-world robotics modeling. 
+        - Collaborated with <a href="https://scholar.google.com/citations?user=ebIHTEoAAAAJ&hl=en">Simon See</a> on online RL for continuous control, leveraging NVIDIA Isaac simulation environment for robotics. 
 
     - title: Visiting Scholar
       institution: Georgia Institute of Technology
@@ -44,7 +44,7 @@
       wrapper_style: "padding: 6px"
       year: Sep. 2022 - Nov. 2022
       description:
-        - Collaborated with <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a> on high-efficiency training paradigm for flow-based image generative models, achieving a dimensionality-proportional reduction in time complexity
+        - Collaborated with <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a> on efficient training paradigm for flow-based image generative models.
 
     - title: Research Intern
       institution: MediaTek
@@ -52,7 +52,7 @@
       wrapper_style: "padding: 12px"
       year: Mar. 2021 - Mar. 2022
       description:
-        - Collaborated with <a href="https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=en">Yi-Chen Lo</a> and <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a> on advanced guidance mechanisms for diffusion models to improve image synthesis fidelity and conditional control.
+        - Collaborated with <a href="https://scholar.google.com/citations?user=EPYQ48sAAAAJ&hl=en">Yi-Chen Lo</a> and <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a> on classifier guidance mechanisms for diffusion models to improve image synthesis fidelity and conditional control.
 
 - title: Awards & Scholarships
   type: list

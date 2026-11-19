@@ -1,0 +1,13 @@
+<!-- Profile picture flip -->
+
+<script>
+  var profileFlipEl = document.getElementById('profile-flip');
+  if (profileFlipEl) {
+    profileFlipEl.addEventListener('click', function (e) {
+      this.classList.toggle('flipped');
+      if (window.playBgParticleEffect) {
+        window.playBgParticleEffect(e.clientX, e.clientY);
+      }
+    });
+  }
+</script>

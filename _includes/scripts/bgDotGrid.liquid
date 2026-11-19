@@ -1,0 +1,113 @@
+<!-- One-shot particle ripple, played across the page background on demand -->
+
+<script>
+  (function () {
+    var canvas = document.getElementById('bg-dot-grid');
+    if (!canvas || !canvas.getContext) return;
+
+    var ctx = canvas.getContext('2d');
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    var spacing = 28; // px between dot centers
+    var minRadius = 0.5;
+    var maxRadius = 1.8;
+    var duration = 700; // ms
+    var dots = [];
+    var width, height, dpr;
+    var rafId = null;
+    var startTime = null;
+    var origin = { x: 0, y: 0 };
+
+    function isDarkTheme() {
+      return document.documentElement.getAttribute('data-theme') === 'dark';
+    }
+
+    function dotColor() {
+      return isDarkTheme() ? '255, 255, 255' : '0, 0, 0';
+    }
+
+    // White dots on a near-black background read fainter than black dots on
+    // white at the same alpha, so boost it slightly to stay equally visible.
+    function alphaScale() {
+      return isDarkTheme() ? 1.3 : 1;
+    }
+
+    function buildGrid() {
+      dpr = window.devicePixelRatio || 1;
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+      canvas.style.width = width + 'px';
+      canvas.style.height = height + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      dots = [];
+      var cols = Math.ceil(width / spacing) + 1;
+      var rows = Math.ceil(height / spacing) + 1;
+      for (var i = 0; i < cols; i++) {
+        for (var j = 0; j < rows; j++) {
+          dots.push({ x: i * spacing, y: j * spacing });
+        }
+      }
+    }
+
+    function draw(elapsed) {
+      ctx.clearRect(0, 0, width, height);
+      var color = dotColor();
+      var scale = alphaScale();
+      var progress = elapsed / duration; // 0..1
+      var waveFront = progress * Math.max(width, height) * 0.6;
+      var fade = Math.pow(1 - progress, 1.4); // grows more transparent as it plays
+
+      for (var k = 0; k < dots.length; k++) {
+        var d = dots[k];
+        var dx = d.x - origin.x;
+        var dy = d.y - origin.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        var delta = dist - waveFront;
+        var band = Math.exp(-(delta * delta) / 12000); // wide, soft band around the wave front
+
+        if (band < 0.02) continue;
+
+        var intensity = band * fade;
+        var radius = minRadius + intensity * (maxRadius - minRadius) * 1.5;
+        var alpha = Math.min(0.12 * scale, intensity * 0.22 * scale);
+
+        ctx.beginPath();
+        ctx.fillStyle = 'rgba(' + color + ', ' + alpha + ')';
+        ctx.arc(d.x, d.y, radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    function step(time) {
+      if (startTime === null) startTime = time;
+      var elapsed = time - startTime;
+
+      if (elapsed >= duration) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        rafId = null;
+        startTime = null;
+        return;
+      }
+
+      draw(elapsed);
+      rafId = requestAnimationFrame(step);
+    }
+
+    // Plays a single outward ripple from (x, y) in viewport coordinates,
+    // defaulting to the screen center, then clears back to a plain background.
+    window.playBgParticleEffect = function (x, y) {
+      if (reduceMotion) return;
+
+      buildGrid();
+      origin.x = typeof x === 'number' ? x : width / 2;
+      origin.y = typeof y === 'number' ? y : height / 2;
+      startTime = null;
+
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(step);
+    };
+  })();
+</script>
